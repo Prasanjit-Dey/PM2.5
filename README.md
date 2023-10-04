@@ -7,14 +7,4 @@ With the spirit of reproducible research, this repository contains all the codes
 Predicting air pollutant concentrations is an efficient way to prevent incidents by providing early warnings of harmful air pollutants. Accurate prediction of air pollutants is an important factor in controlling and preventing air pollutants. This paper proposed a bidirectional long-short-term memory and a bidirectional gated recurrent unit (BiLSTM−BiGRU) to predict PM2.5 concentration in the target city for different lead times. BiLSTM extracts preliminary features, and BiGRU further extracts deep features of air pollutant and meteorological data. The fully connected (FC) layer receives the output and make the accurate prediction of the PM2.5 concentration. The model is then compared with five other deep learning models in terms of root mean square error (RMSE), root mean absolute error (RMAE) and correlation (R2) over different lead times. The results indicate that the proposed model has at least 2.2 times lower RMSE than other models.
 
 
-### Code:
-All codes are written in `python3`.
-
-### Proposed Framework:
-![Architecture](https://user-images.githubusercontent.com/49582829/206673155-9506eb1e-c59b-4df6-b25a-30d16d28e56b.png)
-
-
-### Result:
-![Result](https://user-images.githubusercontent.com/49582829/206673614-448dcb86-63c2-43db-a8d1-31464b0bc062.png)
-
 
